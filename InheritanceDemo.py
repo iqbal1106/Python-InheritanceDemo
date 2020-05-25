@@ -10,7 +10,7 @@ class Car:# Parent class or Super class
         
 class Truck: # Another parent class
     def func(self):
-        print("This is from Car2 class")
+        print("This is from Truck class")
 
 class Tesla(Car): #Single inheritance - Child class inheriting parent class
     def __init__(self,color, wheel_count,engine):
